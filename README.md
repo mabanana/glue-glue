@@ -17,4 +17,4 @@ spin up
 
 Or, use `spin watch` to run the app and rebuild on any changes to `package.json` or the files in `src`.
 
-Use e.g. `curl -v http://127.0.0.1:3000/hello` to test the endpoint.
+Use e.g. `curl -v http://127.0.0.1:3000` to test the endpoint.
