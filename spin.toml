@@ -11,18 +11,16 @@ route = "/..."
 component = "glue-glue"
 
 [variables]
-secret = { required = true }
+telegram_bot_token = { required = true }
 
 [component.glue-glue]
 source = "target/glue-glue.wasm"
 exclude_files = ["**/node_modules"]
-allowed_outbound_hosts = [ "https://*:*" ]
+allowed_outbound_hosts = [ "https://api.telegram.org" ]
 
 [component.glue-glue.build]
 command = "npm run build"
 watch = ["src/**/*.ts", "package.json"]
 
-
-
 [component.glue-glue.variables]
-secret = "{{ secret }}"
+telegram_bot_token = "{{ telegram_bot_token }}"
