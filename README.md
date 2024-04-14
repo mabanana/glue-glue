@@ -1,6 +1,7 @@
-## A simple Telegram Bot using Fermyon Cloud
+## GlueBot
 
-Base functionality echoes messages sent to it back to the user.
+A simple Telegram Bot using Fermyon Cloud, that echoes messages sent to it back to the user.
+
 
 ### Build
 
@@ -8,6 +9,7 @@ Base functionality echoes messages sent to it back to the user.
 npm install
 spin build
 ```
+
 
 ### Run
 
@@ -19,6 +21,7 @@ export SPIN_VARIABLE_TELEGRAM_BOT_TOKEN="<TELEGRAM_TOKEN>"
 Use `spin up` or  `spin watch` to run the app and rebuild on any changes to `package.json` or the files in `src`.
 
 Use e.g. `curl -v http://127.0.0.1:3000` to test the endpoint.
+
 
 ### Deploy
 
