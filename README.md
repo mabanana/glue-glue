@@ -27,7 +27,7 @@ Use e.g. `curl -v http://127.0.0.1:3000` to test the endpoint.
 
 Upload your secret token variable to you Fermyon Cloud App
 ```console
-spin cloud variables set --app <FERMYON_CLOUD_APP_NAME> telegram_bot_token=<TELEGRAM_TOKEN>
+spin deploy --variable telegram_bot_token=<TELEGRAM_TOKEN>
 ```
 
 ### Setup Webhook
