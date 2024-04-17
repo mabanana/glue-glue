@@ -9,7 +9,7 @@ A simple Telegram Bot using Fermyon Cloud, that echoes messages sent to it back 
 npm install
 spin build
 ```
-
+web-cli may fail to install, in that case use `npm install -D webpack-cli`
 
 ### Run
 
