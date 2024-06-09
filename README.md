@@ -1,4 +1,4 @@
-## GlueBot
+## Telegram Echo Bot
 
 A simple Telegram Bot using Fermyon Cloud, that echoes messages sent to it back to the user.
 
